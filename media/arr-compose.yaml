@@ -16,7 +16,7 @@ services:
       - 6789:6789 # nzbget
       - 9696:9696 # prowlarr
     volumes:
-      - /home/brandon/gluetun:/gluetun
+      - /home/slash/gluetun:/gluetun
     environment:
       - VPN_SERVICE_PROVIDER=airvpn
       - VPN_TYPE=wireguard
